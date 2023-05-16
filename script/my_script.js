@@ -11,28 +11,22 @@
 // Proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
 
 console.log('test');
-let count = 15;
-
-// // Add 1 to 100 count
-// for (count = 1; count <= 100; count++) {
-//     console.log(count);
-
-// }
-
-// TEST
-
-// Add Fizz, Buzz and FizzBuzz
-if (count % 3 === 0 && count % 5 === 0) {
-    count = 'FizzBuzz';
-    console.log(count);
-} else if (count % 3 === 0) {
-    count = 'Fizz';
-    console.log(count);
-} else if (count % 5 === 0) {
-    count = 'Buzz';
-    console.log(count);
+// Add 1 to 100 count
+for (let count = 1; count <= 100; count++) {
+    // Add Fizz, Buzz and FizzBuzz
+    if (count % 3 === 0 && count % 5 === 0) {
+        count = 'FizzBuzz';
+        console.log(count);
+    } else if (count % 3 === 0) {
+        count = 'Fizz';
+        console.log(count);
+    } else if (count % 5 === 0) {
+        count = 'Buzz';
+        console.log(count);
+    }
+    else {
+        console.log(count);
+    }
 }
-// else {
-//     console.log(count);
-// }
+
 
