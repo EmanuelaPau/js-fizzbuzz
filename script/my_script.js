@@ -1,13 +1,11 @@
 // Problem 
 console.log('test');
 // Add 1 to 100 count
-let div = document.createElement("div");
-let p = document.createElement("p");
-div.append("Test");
+const fizzBuzzTxt = document.createElement("p");
+document.getElementById('fizz-buzz-container').append(fizzBuzzTxt);
+
 
 for (let count = 1; count <= 100; count++) {
-
-
     // Add Fizz, Buzz and FizzBuzz
     if (count % 3 === 0 && count % 5 === 0) {
         console.log('FizzBuzz');
