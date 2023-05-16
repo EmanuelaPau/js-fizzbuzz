@@ -3,7 +3,7 @@ console.log('test');
 // Add 1 to 100 count
 let div = document.createElement("div");
 let p = document.createElement("p");
-div.append("Some text", p);
+div.append("Test");
 
 for (let count = 1; count <= 100; count++) {
 
