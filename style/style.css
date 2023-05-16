@@ -1,15 +1,40 @@
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .my_fizz {
+    text-align: center;
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    background-color: antiquewhite;
     color: red;
 }
 
 .my_buzz {
+    text-align: center;
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    background-color: antiquewhite;
     color: blue;
 }
 
 .my_fizz-buzz {
+    text-align: center;
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    background-color: antiquewhite;
     color: green;
 }
 
 .my_count-text {
+    text-align: center;
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    background-color: antiquewhite;
     color: purple;
 }

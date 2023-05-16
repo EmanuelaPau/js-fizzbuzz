@@ -32,6 +32,7 @@ for (let count = 1; count <= 100; count++) {
 
         const fizzBuzzTxt = document.createElement("p");
         fizzBuzzTxt.innerHTML += count;
+        fizzBuzzTxt.classList.add("my_count-text");
         document.getElementById('fizz-buzz-container').append(fizzBuzzTxt);
     }
 }
