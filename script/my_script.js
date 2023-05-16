@@ -2,8 +2,9 @@
 console.log('test');
 // Add 1 to 100 count
 const fizzBuzzTxt = document.createElement("p");
+let test = "test";
+fizzBuzzTxt.innerHTML += test;
 document.getElementById('fizz-buzz-container').append(fizzBuzzTxt);
-
 
 for (let count = 1; count <= 100; count++) {
     // Add Fizz, Buzz and FizzBuzz
