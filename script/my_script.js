@@ -11,6 +11,7 @@ for (let count = 1; count <= 100; count++) {
         const fizzBuzzTxt = document.createElement("p");
         fizzBuzzTxt.innerHTML += 'FizzBuzz';
         fizzBuzzTxt.classList.add("my_fizz-buzz");
+        fizzBuzzTxt.classList.add("my_button");
         document.getElementById('fizz-buzz-container').append(fizzBuzzTxt);
     } else if (count % 3 === 0) {
         console.log('Fizz');
@@ -18,6 +19,7 @@ for (let count = 1; count <= 100; count++) {
         const fizzBuzzTxt = document.createElement("p");
         let fizz = fizzBuzzTxt.innerHTML += 'Fizz';
         fizzBuzzTxt.classList.add("my_fizz");
+        fizzBuzzTxt.classList.add("my_button");
         document.getElementById('fizz-buzz-container').append(fizzBuzzTxt);
     } else if (count % 5 === 0) {
         console.log('Buzz');
@@ -25,6 +27,7 @@ for (let count = 1; count <= 100; count++) {
         const fizzBuzzTxt = document.createElement("p");
         fizzBuzzTxt.innerHTML += 'Buzz';
         fizzBuzzTxt.classList.add("my_buzz");
+        fizzBuzzTxt.classList.add("my_button");
         document.getElementById('fizz-buzz-container').append(fizzBuzzTxt);
     }
     else {
@@ -33,6 +36,7 @@ for (let count = 1; count <= 100; count++) {
         const fizzBuzzTxt = document.createElement("p");
         fizzBuzzTxt.innerHTML += count;
         fizzBuzzTxt.classList.add("my_count-text");
+        fizzBuzzTxt.classList.add("my_button");
         document.getElementById('fizz-buzz-container').append(fizzBuzzTxt);
     }
 }

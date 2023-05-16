@@ -1,40 +1,93 @@
 main {
     max-width: 1200px;
     margin: 0 auto;
+    color: white;
+
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+span {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.my_button {
+    line-height: 150px;
+    margin: 10px;
+    width: calc((100% / 5 - 20px));
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px
 }
 
 .my_fizz {
-    text-align: center;
-    margin: 10px;
-    height: 150px;
-    width: 150px;
-    background-color: antiquewhite;
-    color: red;
+    background-color: #127fde;
+    transition: all;
+    transition-duration: .2s
+}
+
+.my_fizz:hover {
+    font-size: 1.7rem;
+}
+
+.my_fizz:active {
+    font-size: 1.6rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 3px, rgba(0, 0, 0, 0.23) 0px 1px
 }
 
 .my_buzz {
-    text-align: center;
-    margin: 10px;
-    height: 150px;
-    width: 150px;
-    background-color: antiquewhite;
-    color: blue;
+    background-color: #29a378;
+    transition: all;
+    transition-duration: .2s
+}
+
+.my_buzz:hover {
+    font-size: 1.7rem;
+}
+
+.my_buzzz:active {
+    font-size: 1.6rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 3px, rgba(0, 0, 0, 0.23) 0px 1px
 }
 
 .my_fizz-buzz {
-    text-align: center;
-    margin: 10px;
-    height: 150px;
-    width: 150px;
-    background-color: antiquewhite;
-    color: green;
+    background-color: #e1213e;
+    transition: all;
+    transition-duration: .2s
+}
+
+.my_fizz-buzz:hover {
+    font-size: 1.7rem;
+}
+
+.my_fizz-buzz:active {
+    font-size: 1.6rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 3px, rgba(0, 0, 0, 0.23) 0px 1px
 }
 
 .my_count-text {
-    text-align: center;
-    margin: 10px;
-    height: 150px;
-    width: 150px;
-    background-color: antiquewhite;
-    color: purple;
+    color: black;
+    background-color: #e1ca69;
+    transition: all;
+    transition-duration: .2s
+}
+
+.my_count-text:hover {
+    font-size: 1.7rem;
+}
+
+.my_count-text:active {
+    font-size: 1.6rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 3px, rgba(0, 0, 0, 0.23) 0px 1px
+}
+
+.my_color-blue {
+    color: #127fde;
+    ;
+}
+
+.my_color-green {
+    color: #29a378;
 }
