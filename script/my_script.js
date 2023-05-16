@@ -1,30 +1,40 @@
 // Problem 
 console.log('test');
 // Add 1 to 100 count
-const fizzBuzzTxt = document.createElement("p");
+// const fizzBuzzTxt = document.createElement("p");
 
 for (let count = 1; count <= 100; count++) {
     // Add Fizz, Buzz and FizzBuzz
     if (count % 3 === 0 && count % 5 === 0) {
         console.log('FizzBuzz');
+
+        const fizzBuzzTxt = document.createElement("p");
         fizzBuzzTxt.innerHTML += 'FizzBuzz';
+        fizzBuzzTxt.classList.add("my_fizz-buzz");
         document.getElementById('fizz-buzz-container').append(fizzBuzzTxt);
     } else if (count % 3 === 0) {
         console.log('Fizz');
-        fizzBuzzTxt.innerHTML += 'Fizz';
+
+        const fizzBuzzTxt = document.createElement("p");
+        let fizz = fizzBuzzTxt.innerHTML += 'Fizz';
+        fizzBuzzTxt.classList.add("my_fizz");
         document.getElementById('fizz-buzz-container').append(fizzBuzzTxt);
     } else if (count % 5 === 0) {
         console.log('Buzz');
+
+        const fizzBuzzTxt = document.createElement("p");
         fizzBuzzTxt.innerHTML += 'Buzz';
+        fizzBuzzTxt.classList.add("my_buzz");
         document.getElementById('fizz-buzz-container').append(fizzBuzzTxt);
     }
     else {
         console.log(count);
+
+        const fizzBuzzTxt = document.createElement("p");
         fizzBuzzTxt.innerHTML += count;
         document.getElementById('fizz-buzz-container').append(fizzBuzzTxt);
     }
 }
 
-// BONUS 1:
-// Crea un container nel DOM, aggiungendo(attraverso la funzione append()) un elemento html con il numero o la stringa corretta da mostrare.
-
+// BONUS 2:
+// Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1, a seconda che il valore inserito sia un numero, un fizz, un buzz o un fizzbuzz.
