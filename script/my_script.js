@@ -2,21 +2,26 @@
 console.log('test');
 // Add 1 to 100 count
 const fizzBuzzTxt = document.createElement("p");
-let test = "test";
-fizzBuzzTxt.innerHTML += test;
-document.getElementById('fizz-buzz-container').append(fizzBuzzTxt);
 
 for (let count = 1; count <= 100; count++) {
     // Add Fizz, Buzz and FizzBuzz
     if (count % 3 === 0 && count % 5 === 0) {
         console.log('FizzBuzz');
+        fizzBuzzTxt.innerHTML += 'FizzBuzz';
+        document.getElementById('fizz-buzz-container').append(fizzBuzzTxt);
     } else if (count % 3 === 0) {
         console.log('Fizz');
+        fizzBuzzTxt.innerHTML += 'Fizz';
+        document.getElementById('fizz-buzz-container').append(fizzBuzzTxt);
     } else if (count % 5 === 0) {
         console.log('Buzz');
+        fizzBuzzTxt.innerHTML += 'Buzz';
+        document.getElementById('fizz-buzz-container').append(fizzBuzzTxt);
     }
     else {
         console.log(count);
+        fizzBuzzTxt.innerHTML += count;
+        document.getElementById('fizz-buzz-container').append(fizzBuzzTxt);
     }
 }
 
