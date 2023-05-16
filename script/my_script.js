@@ -16,14 +16,11 @@ console.log('test');
 for (let count = 1; count <= 100; count++) {
     // Add Fizz, Buzz and FizzBuzz
     if (count % 3 === 0 && count % 5 === 0) {
-        count = 'FizzBuzz';
-        console.log(count);
+        console.log('FizzBuzz');
     } else if (count % 3 === 0) {
-        count = 'Fizz';
-        console.log(count);
+        console.log('Fizz');
     } else if (count % 5 === 0) {
-        count = 'Buzz';
-        console.log(count);
+        console.log('Buzz');
     }
     else {
         console.log(count);
