@@ -10,6 +10,7 @@
 // Scriviamo sempre prima dei commenti in italiano per capire cosa vogliamo fare
 // Proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
 
+// Problem 
 console.log('test');
 // Add 1 to 100 count
 for (let count = 1; count <= 100; count++) {
